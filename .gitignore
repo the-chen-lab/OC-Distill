@@ -1,0 +1,57 @@
+# Data files (must be generated locally with MIMIC-III access)
+data/
+mimic3_benchmark_data/
+cache/
+ICD9CM.ttl
+
+# Model checkpoints and results
+checkpoints/
+results/
+*.pt
+*.pth
+# Exception: include normalization stats for reproducibility
+!vital_norm_stats_*.pt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+slurm-*.out
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Misc
+*.bak
+*.tmp

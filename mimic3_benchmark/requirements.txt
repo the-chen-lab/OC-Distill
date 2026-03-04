@@ -1,0 +1,8 @@
+# Requirements for MIMIC-III benchmark data extraction
+# These are included in the main environment.yml
+
+numpy>=1.21.0
+pandas>=1.4.0
+scikit-learn>=1.0.0
+pyyaml>=6.0
+tqdm>=4.60.0
