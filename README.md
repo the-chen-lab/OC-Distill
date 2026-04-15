@@ -68,12 +68,12 @@ Options:
 Train the multimodal teacher on vitals + clinical notes:
 
 ```bash
-python methods/stage2_teacher.py --task mortality --time 48h --p_summary 0.5
+python methods/stage2_teacher.py --task mortality --time 48h
 ```
 
 Options:
 - `--task`: `mortality` (binary) or `los` (10-class length of stay)
-- `--p_summary`: Probability of using LLM-generated note summaries
+- `--p_summary`: Probability of using LLM-generated note summaries (default: 0.0). To use this, you must first generate your own summaries from MIMIC-III clinical notes using an LLM and save them as `data/notes_summary_train_full_{time}.csv` with columns `id` (ICUSTAY_ID) and `summary`.
 
 #### 4. Stage 2: Student Training with Knowledge Distillation
 

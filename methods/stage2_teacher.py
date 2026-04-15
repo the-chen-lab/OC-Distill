@@ -352,8 +352,8 @@ if __name__ == "__main__":
                         choices=["mortality", "los"])
     parser.add_argument("--lr", type=float, default=5e-5)
     parser.add_argument("--train_frac", type=float, default=1)
-    parser.add_argument("--p_summary", type=float, default=0.5,
-                        help="Probability of using LLM summary (default: 0.5)")
+    parser.add_argument("--p_summary", type=float, default=0.0,
+                        help="Probability of using LLM-generated note summaries (default: 0.0)")
     parser.add_argument("--time", type=str, default="48h",
                         choices=["48h", "72h", "96h"])
     args = parser.parse_args()

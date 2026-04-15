@@ -27,7 +27,7 @@ python methods/stage1_pretrain.py --method ${METHOD} --time ${TIME} --gamma ${GA
 echo ""
 echo "=== Step 3: Stage 2 - Train Multimodal Teacher ==="
 echo "Training teacher model on vitals + clinical notes..."
-python methods/stage2_teacher.py --task ${TASK} --time ${TIME} --lr 5e-5 --p_summary 0.5
+python methods/stage2_teacher.py --task ${TASK} --time ${TIME} --lr 5e-5
 
 echo ""
 echo "=== Step 4: Stage 2 - Train Student with Knowledge Distillation ==="
