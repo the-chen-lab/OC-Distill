@@ -1,1 +1,1 @@
-# OC-Distill: Ontology-Aware Contrastive Learning with Cross-Modal Distillation
+# OC-Distill: Ontology-aware Contrastive Learning with Cross-Modal Distillation for ICU Risk Prediction
