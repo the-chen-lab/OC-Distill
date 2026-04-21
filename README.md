@@ -111,5 +111,13 @@ python methods/eval_finetune.py --method ontology_aware --gamma 5.0 --task morta
 ## Citation
 
 ```bibtex
-[Citation will be added upon publication]
+@misc{liang2026ocdistillontologyawarecontrastivelearning,
+      title={OC-Distill: Ontology-aware Contrastive Learning with Cross-Modal Distillation for ICU Risk Prediction}, 
+      author={Zhongyuan Liang and Junhyung Jo and Hyang-Jung Lee and Sang Kyu Kim and Irene Y. Chen},
+      year={2026},
+      eprint={2604.16878},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2604.16878}, 
+}
 ```
