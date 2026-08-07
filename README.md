@@ -2,7 +2,7 @@
 
 **Ontology-aware Contrastive Learning with Cross-Modal Distillation for ICU Risk Prediction**
 
-📄 **Paper:** [arXiv](https://arxiv.org/abs/2604.16878)
+📄 **Paper:** [View Paper](https://arxiv.org/abs/2604.16878)
 
 This repository contains the implementation of OC-Distill, a two-stage framework for learning vital sign representations that leverages multimodal supervision during training while requiring only vital signs at inference.
 
